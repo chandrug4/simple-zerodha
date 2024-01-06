@@ -4,82 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zerodha - Online Stock Trading at lowest price</title>
-    <link rel="icon" href="./img/headLogo.png" type="image/x-icon" />
+    <link rel="icon" href="./img/headLogo.png" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body style="font-family: sans-serif; color: #424242">
-    <div
-      style="
-        padding: 20px 15px;
-        display: flex;
-        justify-content: space-between;
-        color: #666;
-        font-size: 14px;
-        box-shadow: 2px 1px 2px #eee;
-      "
-    >
-      <img
-        style="padding-top: 2px; margin-left: 200px; cursor: pointer"
-        width="140"
-        src="./img/logo.svg"
-      />
-      <div>
-        <span style="cursor: pointer">Signup</span>
-        <span style="padding-left: 45px; cursor: pointer">About</span>
-        <span style="padding-left: 45px; cursor: pointer">Product</span>
-        <span style="padding-left: 45px; cursor: pointer">Pricing</span>
-        <span style="padding-left: 45px; cursor: pointer">Support</span>
-        <img
-          style="
-            margin-right: 200px;
-            vertical-align: middle;
-            padding-left: 50px;
-            cursor: pointer;
-          "
-          width="20"
-          src="./img/menu.png"
-        />
+  <body>
+    <div class="navbar">
+      <img alt="logo" id="logo" width="140" src="./img/logo.svg" />
+      <div class="navbar-buttons">
+        <div>Signup</div>
+        <div>About</div>
+        <div>Products</div>
+        <div>Pricing</div>
+        <div>Support</div>
+        <img width="20" alt="menu" src="./img/menu.png" />
       </div>
     </div>
-    <div style="margin-top: 70px; display: flex; justify-content: center">
-      <img width="800" src="./img/landing.png" />
-    </div>
-    <div
-      style="
-        margin-top: 45px;
-        font-weight: 500;
-        padding: 10px;
-        font-size: 50px;
-        text-align: center;
-      "
-    >
-      Invest in everything
-    </div>
-    <div
-      style="
-        margin-top: 10px;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-      "
-    >
-      Online platform to invest in stocks, derivatives, mutual funds, and more
-    </div>
-    <div style="margin-top: 45px; display: flex; justify-content: center">
-      <button
-        style="
-          line-height: 20px;
-          font-weight: 500;
-          border-radius: 3px;
-          border: none;
-          padding: 13px 30px;
-          font-size: 20px;
-          color: white;
-          background-color: #387ed1;
-          cursor: pointer;
-        "
-      >
-        Sign up now
-      </button>
+    <div class="main-content">
+      <div id="landing">
+        <img alt="Statistics" width="800" src="./img/landing.png" />
+      </div>
+      <div><h1>Invest in everything</h1></div>
+      <div>
+        <h2>
+          Online platform to invest in stocks, derivatives, mutual funds, and
+          more
+        </h2>
+      </div>
+      <div id="button">
+        <button>Sign up now</button>
+      </div>
     </div>
   </body>
 </html>
